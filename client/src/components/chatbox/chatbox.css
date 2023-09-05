@@ -1,0 +1,46 @@
+.chatboxContainer{
+    background-color: white;
+    height: 80%;
+    width: 400px;
+    /* left: 74vw; */
+    right: 30px;
+    bottom: 90px;
+    position: absolute;
+    border-radius: 2%;
+    /* overflow: hidden; */
+    outline: none;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.chatboxWrapper{
+  overflow-y: scroll;
+  height: 85%;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+
+.chatboxContainer::before{
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  right: 15px;
+  bottom: -10px;
+  border-top: 10px solid white;
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+  outline: none;
+}
+
+

@@ -1,0 +1,77 @@
+.loginBoxTop{
+    height: 50px;
+    align-items: center;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 30px ;
+    color: #1775ee;
+}
+
+.loginBoxInput{
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 10px;
+    margin-top: 2px;
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+.loginBoxWrapper{
+    height: 100%;
+}
+
+.loginBoxInput:focus{
+    outline: none;
+}
+
+
+.loginBoxBottom{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+
+.loginBoxButton{
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1775ee;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    width: fit-content;
+    padding: 10px;
+    display: flex;
+    margin: auto;
+}
+
+.loginBoxButton:hover{
+    color: #1775ee;
+    background-color: white;
+    border: 1px solid #1775ee;
+}
+
+.errMessage{
+    color: red;
+    font-size: smaller;
+}
+
+.loginBoxRadios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.control{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,39 @@
+.topbar{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1877f2;
+}
+
+.topbarWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topbarImgAndName{
+    display: flex;
+    align-items: center;
+}
+
+.topbarImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    border: 1px solid white;
+}
+
+.topbarName{
+    color: white;
+    font-size: 25px;
+}
+
+.topbarOptions{
+    padding-right: 10px;
+    color: white;
+}

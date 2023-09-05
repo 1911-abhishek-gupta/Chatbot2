@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  background-color: #F6F4EB;
+  height: 100vh;
+  padding: 0;
+  position: relative;
+}
+
+body{
+  margin: 0;
+}
+
+.chatboxToggler{
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  height: 50px;
+  width: 50px;
+  background-color: #1877f2;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 50%;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  animation: pulse 2s infinite;
+  outline: 2px solid #1877f2;
+  outline-offset: 2px;
+}
+
+.chatboxButton{
+  padding-top: 5px;
+}
+
+.chatboxToggler:hover{
+  background-color: blue;
+  cursor: pointer;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(136, 165, 191, 0.48);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
